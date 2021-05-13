@@ -1,0 +1,98 @@
+ITERATION 1
+landing.html
+   1. Changed <h3 class="mb-5">Your Files have been uploaded successfully !!</h3> from h2 to h3 and placed it inside the form
+   2. Changed Customer to candidate in the button name
+   3. Added <i class="fas fa-cloud-upload-alt"></i> after success message  
+   
+ relevancyreport.html
+	1. Moved <h3 class="m-b-0">Customer Relevancy Report</h3> outside the div
+	2. removed "align-self-start mr-auto" from the job description button
+		
+
+ITERATION 2
+
+landing.html
+	1. moved the <h3 class="mb-5">Your Files have been uploaded successfully !!</h3> outside the div
+
+relevancyreport.html
+	1. moved the dropdown above the div		
+	2. Changed the color of .dropdown:hover .dropbtn {background-color: #197390;} to #2196bb
+	3. removed padding: 16px; for dropdown
+	
+ITERATION 3
+
+landing.html
+	1. added the center style for the button
+	2. moved the <h3 class="mb-5">Your Files have been uploaded successfully !!</h3> inside the div and outside the form
+	
+relevancyreport.html
+	1. added 2 </br> before dropdown
+	2. Added btn-xl btn-primary for the job description button
+	3. Added 10px padding
+	4. Changed <h4 class="mb-5">Customer Relevancy Report</h4> from h3 to h4
+	5. Added jd numbers
+	6. added style part and table in relevancy report  - Took backup of existing in the desktop
+	
+<table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th> <label class="customcheckbox m-b-20"> <input type="checkbox" id="mainCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <th scope="col">Rank</th>
+                                <th scope="col">Candidate Name</th>
+                                <th scope="col">Candidate Email</th>
+                                <th scope="col">Candidate Phone Number</th>
+                            </tr>
+                        </thead>
+                        <tbody class="customtable">
+                            <tr>
+                                <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <td>1</td>
+                                <td>Ashwin</td>
+								<td>Ashwin@abc.com</td>
+								<td>123456789</td>
+                            </tr>
+                            <tr>
+                                <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <td><strong>2</strong></td>
+								<td>Adithya</td>
+								<td>Adithya@abc.com</td>
+								<td>987654321</td>
+                            </tr>
+                            <tr>
+                                <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <td><strong>3</strong></td>
+								<td>Prathee</td>
+								<td>Prathee@abc.com</td>
+								<td>123654789</td>
+                            </tr>
+                            <tr>
+                                <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <td><strong>4</strong></td>
+								<td>Hariharan</td>
+								<td>Hariharan@abc.com</td>
+								<td>789654123</td>
+                            </tr>
+                            <tr>
+                                <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
+                                <td><strong>5</strong></td>
+								<td>Calyanni</td>
+								<td>Calyanni@abc.com</td>
+								<td>111111111</td>                                
+                            </tr>                            
+                        </tbody>
+                    </table>
+					
+					
+ITERATION 4
+
+landing.html
+	1. removing the div above form to check if the image is stretched - rolled back	 
+	
+
+relevancyreport.html
+	1. padding:10px is removed - rolled back
+	2. changed customer to candidate
+	3. changed background of table to transparent - rolled back
+	
+	
+The last iteration collapsed everything. rolled back teh given changes. but did not work. rolling back to the file from before iteration 3 (backup)

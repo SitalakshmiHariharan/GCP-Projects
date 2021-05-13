@@ -1,0 +1,18 @@
+flask==1.1.2
+google-cloud-storage==1.36.1
+gunicorn==20.0.4; python_version > '3.0'
+gunicorn==19.10.0; python_version < '3.0'
+flask-bootstrap==2.3.2.2
+psycopg2==2.8.3
+psycopg2-binary==2.8.3
+Flask-Mail==0.9.1
+SQLAlchemy==1.4.11
+pg8000==1.12.5
+python-dotenv==0.15.0
+numpy==1.18.0
+pandas==1.0.4
+pysqlite3==0.4.3
+https://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-1.0.12.tar.gz
+mysql-connector-python==8.0.24
+PyMySQL==0.9.3
+
